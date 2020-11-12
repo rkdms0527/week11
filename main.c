@@ -13,5 +13,6 @@ int main(void)
 	**q = 300;
 	printf("i = %d, *p = %d, **q = %d\n", i, *p, **q);
 	
+	printf("%p %p\n", p, *p);
 	return 0;
 }
